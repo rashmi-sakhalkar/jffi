@@ -1,5 +1,8 @@
 language: java
-install: ant deps
+addons:
+  apt:
+    packages:
+      - ant
 script: ant test
 notifications:
   irc:
