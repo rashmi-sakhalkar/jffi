@@ -14,7 +14,7 @@ notifications:
       - "%{repository} (%{branch}:%{commit} by %{author}): %{message} (%{build_url})"
 matrix:
   include:
-  - os: linux
+  - os: linux-ppc64le
     jdk: openjdk8
 sudo: false
 cache:
